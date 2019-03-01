@@ -5,27 +5,13 @@
   "description": "Random Wikipedia",
   "version": "1.0",
 
-  "homepage_url": "https://en.wikipedia.org/wiki/Special:Random",
+  "homepage_url": "https://github.com/tarla/random-wikipedia-chrome-extension",
 
   "chrome_url_overrides": {
     "newtab": "newtab.html"
   },
 
-  "browser_action": {
-    "default_icon": "icon.png"
-  },
-
-  "background": {
-    "scripts": [ "background.js" ],
-    "persistent": false
-  },
-
   "icons": {
     "128": "icon.png"
-  },
-
-  "permissions": [
-    "contextMenus",
-    "tabs"
-  ]
+  }
 }
