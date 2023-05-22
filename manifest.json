@@ -16,7 +16,7 @@
   },
 
   "background": {
-    "scripts": [ "background.js" ],
+    "scripts": ["background.js"],
     "persistent": false
   },
 
@@ -24,8 +24,5 @@
     "128": "icon.png"
   },
 
-  "permissions": [
-    "contextMenus",
-    "tabs"
-  ]
+  "permissions": ["contextMenus"]
 }
